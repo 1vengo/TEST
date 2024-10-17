@@ -1,5 +1,5 @@
 // Массив всех проектов
-import icon from "../img/my-projects/symbol-defs.svg"
+import icon from "../img/my-projects/Vector 24.svg"
 const allProjects = [
   { img: image1, title: 'English excellence webservice ', technologies: 'React, JavaScript, Node JS, Git', github: 'https://github.com/NatAn240185/project-js-group-2' },
   { img: image2, title: 'wallet webservice ', technologies: 'React, JavaScript, Node JS, Git', github: 'https://github.com/NatAn240185/project-js-group-2' },
@@ -50,7 +50,7 @@ function loadProjects() {
         <p class="text">${project.technologies}</p>
         <h3 class="label">${project.title}</h3>
         <a href="${project.github}" class="visit" target="_blank">Visit<svg class="visit-icon" width="15" height="15">
-        <use href="/img/my-projects/${icon}#icon-visit">
+        <use href="${icon}">
         </svg></a>
       </div>
     `;
