@@ -1,11 +1,11 @@
 {
-  "name": "TEST",
+  "name": "test",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/TEST/",
+    "build": "vite build --base=/test/",
     "preview": "vite preview"
   },
   "devDependencies": {
